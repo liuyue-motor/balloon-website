@@ -16,7 +16,7 @@ export default function Header() {
     <header className="header">
       <div className="header__inner">
         <a href="#hero" className="header__logo">
-          🎈 喜事气球布置
+          🎈 炫彩气球布置
         </a>
         <nav className={`header__nav ${menuOpen ? 'header__nav--open' : ''}`}>
           {navItems.map((item) => (

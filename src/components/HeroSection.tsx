@@ -39,7 +39,7 @@ export default function HeroSection() {
     <section id="hero" className="hero">
       <div className="hero__overlay" />
       <div className="hero__content">
-        <p className="hero__tag">🎈 本地专业气球布置团队</p>
+        <p className="hero__tag">🎈 炫彩气球布置｜本地喜事与活动布置服务</p>
         <h1 className="hero__title">
           气球布置<span className="hero__divider">｜</span>宴会装饰<span className="hero__divider">｜</span>喜事现场
         </h1>

@@ -1186,6 +1186,25 @@
 
 .contact__btn {
   width: 100%;
+  transition: all 0.3s ease;
+}
+
+.contact__btn--copied {
+  background: #4CAF50 !important;
+  border-color: #4CAF50 !important;
+  pointer-events: none;
+}
+
+.contact__copy-error {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: #FFF3CD;
+  border: 1px solid #FFC107;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #856404;
+  text-align: center;
+  word-break: break-all;
 }
 
 @media (min-width: 640px) {
